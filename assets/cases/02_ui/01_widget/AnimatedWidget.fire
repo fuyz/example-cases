@@ -41,8 +41,8 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.5697916666666667,
-      "y": 0.5697916666666667,
+      "x": 0.6656005859375,
+      "y": 0.6656005859375,
       "z": 1
     },
     "_quat": {
@@ -326,7 +326,7 @@
     "_spriteFrame": {
       "__uuid__": "c018f035-3e32-40ed-b962-e171205633d0"
     },
-    "_type": 1,
+    "_type": 2,
     "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
@@ -416,7 +416,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 200,
+      "width": 451.27,
       "height": 40
     },
     "_anchorPoint": {
@@ -462,8 +462,8 @@
     "_srcBlendFactor": 1,
     "_dstBlendFactor": 771,
     "_useOriginalSize": false,
-    "_string": "动画挂件。",
-    "_N$string": "动画挂件。",
+    "_string": "This is Animation Widget.",
+    "_N$string": "This is Animation Widget.",
     "_fontSize": 40,
     "_lineHeight": 40,
     "_enableWrapText": true,

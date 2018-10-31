@@ -44,8 +44,8 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.7109130859375,
-      "y": 0.7109130859375,
+      "x": 0.6031249999999997,
+      "y": 0.6031249999999997,
       "z": 1
     },
     "_quat": {
@@ -440,7 +440,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 400,
+      "width": 364.59,
       "height": 40
     },
     "_anchorPoint": {
@@ -486,8 +486,8 @@
     "_srcBlendFactor": 1,
     "_dstBlendFactor": 771,
     "_useOriginalSize": false,
-    "_string": "这个精灵来自单张图片",
-    "_N$string": "这个精灵来自单张图片",
+    "_string": "This is Spirte Single.",
+    "_N$string": "This is Spirte Single.",
     "_fontSize": 40,
     "_lineHeight": 40,
     "_enableWrapText": true,
@@ -620,7 +620,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 320,
+      "width": 488.28,
       "height": 40
     },
     "_anchorPoint": {
@@ -666,8 +666,8 @@
     "_srcBlendFactor": 1,
     "_dstBlendFactor": 771,
     "_useOriginalSize": false,
-    "_string": "这个精灵来自图集",
-    "_N$string": "这个精灵来自图集",
+    "_string": "This is Spirte From Atlas.11",
+    "_N$string": "This is Spirte From Atlas.11",
     "_fontSize": 40,
     "_lineHeight": 40,
     "_enableWrapText": true,

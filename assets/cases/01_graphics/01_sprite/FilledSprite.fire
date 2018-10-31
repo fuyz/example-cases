@@ -44,8 +44,8 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.5697916666666667,
-      "y": 0.5697916666666667,
+      "x": 0.603125,
+      "y": 0.603125,
       "z": 1
     },
     "_quat": {
@@ -534,7 +534,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 245,
+      "width": 372.73,
       "height": 40
     },
     "_anchorPoint": {
@@ -580,8 +580,8 @@
     "_srcBlendFactor": 1,
     "_dstBlendFactor": 771,
     "_useOriginalSize": false,
-    "_string": "填充类型：水平",
-    "_N$string": "填充类型：水平",
+    "_string": "Fill Type: HORIZONTAL",
+    "_N$string": "Fill Type: HORIZONTAL",
     "_fontSize": 35,
     "_lineHeight": 40,
     "_enableWrapText": true,
@@ -741,7 +741,7 @@
       "x": 0,
       "y": 0
     },
-    "_fillStart": 1,
+    "_fillStart": 0.9,
     "_fillRange": -1,
     "_isTrimmedMode": false,
     "_state": 0,
@@ -774,7 +774,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 245,
+      "width": 320.28,
       "height": 40
     },
     "_anchorPoint": {
@@ -820,8 +820,8 @@
     "_srcBlendFactor": 1,
     "_dstBlendFactor": 771,
     "_useOriginalSize": false,
-    "_string": "填充类型：垂直",
-    "_N$string": "填充类型：垂直",
+    "_string": "Fill Type: VERTICAL",
+    "_N$string": "Fill Type: VERTICAL",
     "_fontSize": 35,
     "_lineHeight": 40,
     "_enableWrapText": true,
@@ -984,7 +984,7 @@
       "x": 0.5,
       "y": 0.5
     },
-    "_fillStart": 0,
+    "_fillStart": 0.5,
     "_fillRange": 1,
     "_isTrimmedMode": true,
     "_state": 0,
@@ -1074,7 +1074,7 @@
       "y": 0.5
     },
     "_fillStart": 0,
-    "_fillRange": 0.5,
+    "_fillRange": 0.3,
     "_isTrimmedMode": true,
     "_state": 0,
     "_atlas": null,
@@ -1106,7 +1106,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 245,
+      "width": 301.52,
       "height": 40
     },
     "_anchorPoint": {
@@ -1152,8 +1152,8 @@
     "_srcBlendFactor": 1,
     "_dstBlendFactor": 771,
     "_useOriginalSize": false,
-    "_string": "填充类型：圆形",
-    "_N$string": "填充类型：圆形",
+    "_string": "FILL Type: RADIAL",
+    "_N$string": "FILL Type: RADIAL",
     "_fontSize": 35,
     "_lineHeight": 40,
     "_enableWrapText": true,

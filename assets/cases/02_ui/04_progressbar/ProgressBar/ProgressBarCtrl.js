@@ -2,7 +2,7 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        speed: 10,
+        speed: 20,
         horizontalBar: {
             type: cc.ProgressBar,
             default: null
@@ -18,6 +18,10 @@ cc.Class({
         verticalBarReverse: {
             type: cc.ProgressBar,
             default: null
+        },
+        myBar: {
+            type: cc.ProgressBar,
+            default: null
         }
     },
 
@@ -27,6 +31,7 @@ cc.Class({
         this.horizontalBar.progress = 0;
         this.verticalBarReverse.progress = 0;
         this.horizontalBarReverse.progress = 0;
+        this.myBar.progress = 0;
     },
 
     update: function (dt) {
@@ -34,14 +39,14 @@ cc.Class({
         this._updateProgressBar(this.horizontalBar, dt);
         this._updateProgressBar(this.verticalBarReverse, dt);
         this._updateProgressBar(this.horizontalBarReverse, dt);
+        this._updateProgressBar(this.myBar, dt);
     },
     
     _updateProgressBar: function(progressBar, dt){
         var progress = progressBar.progress;
         if(progress < 1.0 && this._pingpong){
             progress += dt * this.speed;
-        }
-        else {
+        }else {
             progress -= dt * this.speed;
             this._pingpong = progress <= 0;
         }
