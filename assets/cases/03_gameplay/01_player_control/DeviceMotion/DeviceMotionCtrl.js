@@ -48,7 +48,7 @@ cc.Class({
 
     update (dt) {
         var target = this.target, range = this._range;
-        this._time += 5;
+        this._time += 40;
         target.x += this._acc.x * dt * (this.speed + this._time);
         target.x = cc.misc.clampf(target.x, -range.x, range.x);
         target.y += this._acc.y * dt * (this.speed + this._time);
